@@ -50,8 +50,6 @@ public class eqInt {
       double m = console.nextDouble();
       System.out.print("What is the bike's mass? (kg) ");
       m += console.nextDouble();
-      System.out.print("What is the mass of the electronics? (kg) ");
-      m += console.nextDouble();
       // user inputs the height of drop
       System.out.print("What is the drop hight? (m) ");
       double h = console.nextDouble();
@@ -90,8 +88,6 @@ public class eqInt {
       System.out.print("What is the rider's mass? (kg) ");
       double m = console.nextDouble();
       System.out.print("What is the bike's mass? (kg) ");
-      m += console.nextDouble();
-      System.out.print("What is the mass of the electronics? (kg) ");
       m += console.nextDouble();
       // user inputs initial velocity
       System.out.print("What is the rider's initial horizontal speed? (m/s) ");
@@ -161,8 +157,6 @@ public class eqInt {
       double m = console.nextDouble();
       System.out.print("What is the bike's mass? (kg) ");
       m += console.nextDouble();
-      System.out.print("What is the mass of the electronics? (kg) ");
-      m += console.nextDouble();
       // user inputs the distance between their butt, and the seat in the lowered position
       System.out.print("What is your seat clearance? (mm) ");
       double sc = console.nextDouble()/1000;
@@ -224,8 +218,6 @@ public class eqInt {
          System.out.print("What is the rider's mass? (kg) ");
          double m = console.nextDouble();
          System.out.print("What is the bike's mass? (kg) ");
-         m += console.nextDouble();
-         System.out.print("What is the mass of the electronics? (kg) ");
          m += console.nextDouble();
          // user inputs the distance between their butt, and the seat in the lowered position
          System.out.print("What is your seat clearance? (mm) ");
