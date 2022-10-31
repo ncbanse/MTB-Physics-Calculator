@@ -20,7 +20,7 @@ public class MTBphysicsCalc {
          System.out.println("Type 2 if you want to simulate a drop with an angled landing");
          System.out.println("Type 3 if you want to simulate a jump with a flat landing");
          System.out.println("Type 4 if you want to simulate a jump with an angled landing");
-         System.out.println("Type 5 if you want to simulate the power requirement of an ev");
+         System.out.println("Type 5 if you want to simulate the power requirement of an E-bike");
          System.out.print("Type answere here: ");
          // user inputs the simulation type number
          int simType = console.nextInt();

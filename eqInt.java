@@ -1,4 +1,4 @@
-import java.awt.*;
+   import java.awt.*;
 import java.util.*;
 public class eqInt {
 
@@ -15,11 +15,11 @@ public class eqInt {
       System.out.print("What is the mass of the electronics? (kg) ");
       m += console.nextDouble();
       // user inputs desired top speed
-      System.out.print("What is the max speed? (mph) ");
+      System.out.print("What is the base speed? (mph) ");
       double v = console.nextDouble();
       double vF = .44704 * v;
       // user inputs Time to accelerate from 0 m/s to desired top speed
-      System.out.print("How fast do you want to reach the max speed? (s) ");
+      System.out.print("How fast do you want to reach the base speed? (s) ");
       double t = console.nextDouble();
       System.out.println();
       double a = Physics.aVT(vF, t);
